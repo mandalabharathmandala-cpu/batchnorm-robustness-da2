@@ -1,0 +1,498 @@
+[
+  {
+    "norm_type": "bn",
+    "batch_size": 64,
+    "final_val_acc": 62.75,
+    "final_loss": 0.7128,
+    "avg_grad_norm": 0.3362,
+    "grad_variance": 0.0019,
+    "total_training_time_sec": 7.63,
+    "inf_latency_ms_per_1k": 413.38,
+    "parameter_count": 278890,
+    "history": {
+      "norm_type": "bn",
+      "batch_size": 64,
+      "train_loss": [
+        1.2111,
+        0.7128
+      ],
+      "val_acc": [
+        63.0,
+        62.75
+      ],
+      "grad_norms": [
+        0.2929,
+        0.3794
+      ],
+      "epoch_times": [
+        3.37,
+        3.38
+      ]
+    }
+  },
+  {
+    "norm_type": "ws_gn",
+    "batch_size": 64,
+    "final_val_acc": 75.88,
+    "final_loss": 0.6818,
+    "avg_grad_norm": 0.3044,
+    "grad_variance": 0.0021,
+    "total_training_time_sec": 8.25,
+    "inf_latency_ms_per_1k": 446.52,
+    "parameter_count": 278890,
+    "history": {
+      "norm_type": "ws_gn",
+      "batch_size": 64,
+      "train_loss": [
+        1.2293,
+        0.6818
+      ],
+      "val_acc": [
+        68.12,
+        75.88
+      ],
+      "grad_norms": [
+        0.2583,
+        0.3504
+      ],
+      "epoch_times": [
+        3.74,
+        3.56
+      ]
+    }
+  },
+  {
+    "norm_type": "gn",
+    "batch_size": 64,
+    "final_val_acc": 41.0,
+    "final_loss": 1.6572,
+    "avg_grad_norm": 0.3505,
+    "grad_variance": 0.0251,
+    "total_training_time_sec": 7.57,
+    "inf_latency_ms_per_1k": 435.61,
+    "parameter_count": 278890,
+    "history": {
+      "norm_type": "gn",
+      "batch_size": 64,
+      "train_loss": [
+        2.1223,
+        1.6572
+      ],
+      "val_acc": [
+        30.88,
+        41.0
+      ],
+      "grad_norms": [
+        0.1922,
+        0.5088
+      ],
+      "epoch_times": [
+        3.33,
+        3.38
+      ]
+    }
+  },
+  {
+    "norm_type": "ln",
+    "batch_size": 64,
+    "final_val_acc": 49.25,
+    "final_loss": 1.5326,
+    "avg_grad_norm": 0.2219,
+    "grad_variance": 0.0059,
+    "total_training_time_sec": 8.09,
+    "inf_latency_ms_per_1k": 461.95,
+    "parameter_count": 278890,
+    "history": {
+      "norm_type": "ln",
+      "batch_size": 64,
+      "train_loss": [
+        2.1393,
+        1.5326
+      ],
+      "val_acc": [
+        36.12,
+        49.25
+      ],
+      "grad_norms": [
+        0.1453,
+        0.2986
+      ],
+      "epoch_times": [
+        3.62,
+        3.49
+      ]
+    }
+  },
+  {
+    "norm_type": "bn",
+    "batch_size": 16,
+    "final_val_acc": 66.38,
+    "final_loss": 0.6654,
+    "avg_grad_norm": 0.5232,
+    "grad_variance": 0.0042,
+    "total_training_time_sec": 9.89,
+    "inf_latency_ms_per_1k": 525.75,
+    "parameter_count": 278890,
+    "history": {
+      "norm_type": "bn",
+      "batch_size": 16,
+      "train_loss": [
+        1.0823,
+        0.6654
+      ],
+      "val_acc": [
+        71.75,
+        66.38
+      ],
+      "grad_norms": [
+        0.4582,
+        0.5881
+      ],
+      "epoch_times": [
+        4.18,
+        4.65
+      ]
+    }
+  },
+  {
+    "norm_type": "ws_gn",
+    "batch_size": 16,
+    "final_val_acc": 78.5,
+    "final_loss": 0.6195,
+    "avg_grad_norm": 0.3486,
+    "grad_variance": 0.0012,
+    "total_training_time_sec": 10.51,
+    "inf_latency_ms_per_1k": 496.08,
+    "parameter_count": 278890,
+    "history": {
+      "norm_type": "ws_gn",
+      "batch_size": 16,
+      "train_loss": [
+        1.072,
+        0.6195
+      ],
+      "val_acc": [
+        72.38,
+        78.5
+      ],
+      "grad_norms": [
+        0.3135,
+        0.3836
+      ],
+      "epoch_times": [
+        4.85,
+        4.64
+      ]
+    }
+  },
+  {
+    "norm_type": "gn",
+    "batch_size": 16,
+    "final_val_acc": 53.0,
+    "final_loss": 1.059,
+    "avg_grad_norm": 0.7834,
+    "grad_variance": 0.0338,
+    "total_training_time_sec": 9.36,
+    "inf_latency_ms_per_1k": 497.97,
+    "parameter_count": 278890,
+    "history": {
+      "norm_type": "gn",
+      "batch_size": 16,
+      "train_loss": [
+        1.8383,
+        1.059
+      ],
+      "val_acc": [
+        51.62,
+        53.0
+      ],
+      "grad_norms": [
+        0.5995,
+        0.9673
+      ],
+      "epoch_times": [
+        4.03,
+        4.04
+      ]
+    }
+  },
+  {
+    "norm_type": "ln",
+    "batch_size": 16,
+    "final_val_acc": 50.5,
+    "final_loss": 1.274,
+    "avg_grad_norm": 0.3608,
+    "grad_variance": 0.0224,
+    "total_training_time_sec": 10.64,
+    "inf_latency_ms_per_1k": 515.28,
+    "parameter_count": 278890,
+    "history": {
+      "norm_type": "ln",
+      "batch_size": 16,
+      "train_loss": [
+        2.0855,
+        1.274
+      ],
+      "val_acc": [
+        39.5,
+        50.5
+      ],
+      "grad_norms": [
+        0.2112,
+        0.5103
+      ],
+      "epoch_times": [
+        5.37,
+        4.26
+      ]
+    }
+  },
+  {
+    "norm_type": "bn",
+    "batch_size": 4,
+    "final_val_acc": 75.88,
+    "final_loss": 0.7829,
+    "avg_grad_norm": 0.6243,
+    "grad_variance": 0.0024,
+    "total_training_time_sec": 19.34,
+    "inf_latency_ms_per_1k": 495.99,
+    "parameter_count": 278890,
+    "history": {
+      "norm_type": "bn",
+      "batch_size": 4,
+      "train_loss": [
+        1.2449,
+        0.7829
+      ],
+      "val_acc": [
+        67.25,
+        75.88
+      ],
+      "grad_norms": [
+        0.5755,
+        0.6731
+      ],
+      "epoch_times": [
+        7.97,
+        10.25
+      ]
+    }
+  },
+  {
+    "norm_type": "ws_gn",
+    "batch_size": 4,
+    "final_val_acc": 76.38,
+    "final_loss": 0.6102,
+    "avg_grad_norm": 0.4981,
+    "grad_variance": 0.0009,
+    "total_training_time_sec": 23.5,
+    "inf_latency_ms_per_1k": 533.4,
+    "parameter_count": 278890,
+    "history": {
+      "norm_type": "ws_gn",
+      "batch_size": 4,
+      "train_loss": [
+        1.0189,
+        0.6102
+      ],
+      "val_acc": [
+        71.88,
+        76.38
+      ],
+      "grad_norms": [
+        0.4674,
+        0.5289
+      ],
+      "epoch_times": [
+        10.46,
+        11.94
+      ]
+    }
+  },
+  {
+    "norm_type": "gn",
+    "batch_size": 4,
+    "final_val_acc": 72.62,
+    "final_loss": 0.9507,
+    "avg_grad_norm": 0.8381,
+    "grad_variance": 0.0207,
+    "total_training_time_sec": 17.27,
+    "inf_latency_ms_per_1k": 517.07,
+    "parameter_count": 278890,
+    "history": {
+      "norm_type": "gn",
+      "batch_size": 4,
+      "train_loss": [
+        1.6873,
+        0.9507
+      ],
+      "val_acc": [
+        53.62,
+        72.62
+      ],
+      "grad_norms": [
+        0.6942,
+        0.982
+      ],
+      "epoch_times": [
+        7.7,
+        8.54
+      ]
+    }
+  },
+  {
+    "norm_type": "ln",
+    "batch_size": 4,
+    "final_val_acc": 61.25,
+    "final_loss": 0.9977,
+    "avg_grad_norm": 0.4994,
+    "grad_variance": 0.0196,
+    "total_training_time_sec": 18.94,
+    "inf_latency_ms_per_1k": 508.17,
+    "parameter_count": 278890,
+    "history": {
+      "norm_type": "ln",
+      "batch_size": 4,
+      "train_loss": [
+        1.6823,
+        0.9977
+      ],
+      "val_acc": [
+        34.38,
+        61.25
+      ],
+      "grad_norms": [
+        0.3594,
+        0.6395
+      ],
+      "epoch_times": [
+        9.31,
+        8.61
+      ]
+    }
+  },
+  {
+    "norm_type": "bn",
+    "batch_size": 2,
+    "final_val_acc": 73.62,
+    "final_loss": 1.011,
+    "avg_grad_norm": 0.5788,
+    "grad_variance": 0.0098,
+    "total_training_time_sec": 29.73,
+    "inf_latency_ms_per_1k": 547.56,
+    "parameter_count": 278890,
+    "history": {
+      "norm_type": "bn",
+      "batch_size": 2,
+      "train_loss": [
+        1.5925,
+        1.011
+      ],
+      "val_acc": [
+        67.12,
+        73.62
+      ],
+      "grad_norms": [
+        0.48,
+        0.6777
+      ],
+      "epoch_times": [
+        15.33,
+        13.3
+      ]
+    }
+  },
+  {
+    "norm_type": "ws_gn",
+    "batch_size": 2,
+    "final_val_acc": 79.5,
+    "final_loss": 0.6403,
+    "avg_grad_norm": 0.5002,
+    "grad_variance": 0.001,
+    "total_training_time_sec": 39.87,
+    "inf_latency_ms_per_1k": 579.38,
+    "parameter_count": 278890,
+    "history": {
+      "norm_type": "ws_gn",
+      "batch_size": 2,
+      "train_loss": [
+        1.0398,
+        0.6403
+      ],
+      "val_acc": [
+        76.5,
+        79.5
+      ],
+      "grad_norms": [
+        0.4694,
+        0.5311
+      ],
+      "epoch_times": [
+        19.11,
+        19.6
+      ]
+    }
+  },
+  {
+    "norm_type": "gn",
+    "batch_size": 2,
+    "final_val_acc": 67.62,
+    "final_loss": 0.9052,
+    "avg_grad_norm": 0.5288,
+    "grad_variance": 0.0236,
+    "total_training_time_sec": 30.27,
+    "inf_latency_ms_per_1k": 591.92,
+    "parameter_count": 278890,
+    "history": {
+      "norm_type": "gn",
+      "batch_size": 2,
+      "train_loss": [
+        1.5796,
+        0.9052
+      ],
+      "val_acc": [
+        48.38,
+        67.62
+      ],
+      "grad_norms": [
+        0.3752,
+        0.6824
+      ],
+      "epoch_times": [
+        13.01,
+        16.16
+      ]
+    }
+  },
+  {
+    "norm_type": "ln",
+    "batch_size": 2,
+    "final_val_acc": 69.88,
+    "final_loss": 0.9661,
+    "avg_grad_norm": 0.4063,
+    "grad_variance": 0.0271,
+    "total_training_time_sec": 28.66,
+    "inf_latency_ms_per_1k": 528.51,
+    "parameter_count": 278890,
+    "history": {
+      "norm_type": "ln",
+      "batch_size": 2,
+      "train_loss": [
+        1.6459,
+        0.9661
+      ],
+      "val_acc": [
+        55.75,
+        69.88
+      ],
+      "grad_norms": [
+        0.2417,
+        0.5709
+      ],
+      "epoch_times": [
+        16.38,
+        11.25
+      ]
+    }
+  }
+]
